@@ -1,0 +1,32 @@
+{
+  "name": "expensetracker",
+  "version": "1.0.0",
+  "description": "Backend for expense tracker",
+  "homepage": "https://github.com/amir01mn/ExpenseTracker#readme",
+  "bugs": {
+    "url": "https://github.com/amir01mn/ExpenseTracker/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amir01mn/ExpenseTracker.git"
+  },
+  "license": "MIT",
+  "author": "amirhossein mansouri",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server" ,
+    "server": "nodemon server"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.9.1",
+    "morgan": "^1.11.0"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.4",
+    "nodemon": "^3.1.14"
+  }
+}
